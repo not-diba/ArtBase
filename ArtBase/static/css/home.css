@@ -1,0 +1,31 @@
+body
+{
+  background: url(../img/home.jpg) no-repeat center center;
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+body,h1 {font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+
+.bgimg {
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+.home-content
+{
+  padding-top: 20px;
+  margin: auto;
+}
+
+.home-content .btn
+{
+  height:20px;
+  width:100px;
+  margin: -20px -50px;
+  float:left;
+  margin-right:5px;
+}

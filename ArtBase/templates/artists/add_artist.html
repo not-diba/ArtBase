@@ -1,0 +1,16 @@
+{% extends 'admin/adminLayout.html' %}
+
+{% block body %}
+  <h1>Add Artist</h1>
+  {% from "includes/_formhelpers.html" import render_field %}
+  <form method="POST" action="">
+    <div class="form-group">
+      {{ render_field(form.artist_name, class_="form-control") }}
+      {{ render_field(form.birthplace, class_="form-control") }}
+      {{ render_field(form.age, class_="form-control") }}
+      {{ render_field(form.art_style, class_="form-control") }}
+      {{ render_field(form.gallery_name, class_="form-control") }}
+    </div>
+    <p><input class="btn btn-primary" type="submit" value="Add">
+  </form>
+{% endblock %}
