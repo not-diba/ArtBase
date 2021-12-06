@@ -1,2 +1,2 @@
 # ArtBase
-The is same Art Gallery website project
+The is some Art Gallery website project
